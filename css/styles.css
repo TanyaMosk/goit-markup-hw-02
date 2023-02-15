@@ -45,10 +45,6 @@ body {
   text-decoration: none;
 }
 
-.link-logo:hover,
-.link-logo:focus {
-  color: var(--hover-color);
-}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -56,10 +52,6 @@ body {
   line-height: 1.3;
   letter-spacing: 0.03em;
   color: var(--button-color);
-}
-.header-logo:hover,
-.header-logo:focus {
-  color: var(--hover-color);
 }
 
 .list-item {
@@ -75,7 +67,7 @@ body {
 }
 
 .contact-list {
-  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
@@ -94,7 +86,6 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -135,7 +126,6 @@ body {
 
 .title-work,
 .title-team {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -173,11 +163,6 @@ body {
   text-decoration: none;
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
-  color: var(--hover-color);
-}
-
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -191,11 +176,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-color);
-}
-
-.footer-logotype:hover,
-.footer-logotype:focus {
-  color: var(--hover-color);
 }
 
 /* Portfolio */
