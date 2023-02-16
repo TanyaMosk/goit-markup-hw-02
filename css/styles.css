@@ -10,7 +10,6 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.02em;
 }
 
 /* Прихований заголовок */
@@ -58,6 +57,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -70,6 +70,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
 }
@@ -89,6 +90,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
 
@@ -114,12 +116,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
 .main-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* What are we doing */
@@ -129,6 +133,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
@@ -138,12 +143,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
 .position {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -166,6 +173,7 @@ body {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
 .footer-logotype {
@@ -206,10 +214,12 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 
 .project {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
