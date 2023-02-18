@@ -3,7 +3,7 @@
   --title-text-color: #2e2f42;
   --primary-white-color: #ffffff;
   --button-color: #4d5ae5;
-  --hover-color: #404bbf;
+  --accent-color: #404bbf;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Прихований заголовок */
+/* ======================== HIDDEN TITLE ======================= */
 
 .visually-hidden {
   position: absolute;
@@ -27,7 +27,7 @@ body {
   overflow: hidden;
 }
 
-/* Header */
+/* ============================ HEADER ======================= */
 
 .list {
   list-style: none;
@@ -63,7 +63,7 @@ body {
 }
 .list-item:hover,
 .list-item:focus {
-  color: var(--hover-color);
+  color: var(--accent-color);
 }
 
 .contact-list {
@@ -77,10 +77,10 @@ body {
 
 .contact-list:hover,
 .contact-list:focus {
-  color: var(--hover-color);
+  color: var(--accent-color);
 }
 
-/* Hero */
+/* ============================== HERO ========================= */
 
 .hero {
   background-color: var(--title-text-color);
@@ -107,10 +107,10 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: var(--hover-color);
+  background-color: var(--accent-color);
 }
 
-/* About us */
+/* =========================== ABOUT US ========================= */
 
 .title-list {
   font-weight: 500;
@@ -126,7 +126,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* What are we doing */
+/* ======================== WHAT ARE WE DOING =================== */
 
 .title-work,
 .title-team {
@@ -137,7 +137,7 @@ body {
   color: var(--title-text-color);
 }
 
-/* Our team */
+/* =========================== OUR TEAM ======================= */
 
 .name {
   font-weight: 500;
@@ -153,7 +153,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Footer */
+/* ========================== FOOTER ========================= */
 
 .footer {
   background-color: var(--title-text-color);
@@ -186,9 +186,10 @@ body {
   color: var(--button-color);
 }
 
-/* Portfolio */
+/* ========================= PORTFOLIO ========================== */
 
 .button-portfolio {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -200,7 +201,7 @@ body {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-  background: var(--hover-color);
+  background: var(--accent-color);
   color: var(--primary-white-color);
 }
 
